@@ -1,0 +1,1904 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "InvoiceAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/SINVOICE": {
+      "get": {
+        "tags": [
+          "SINVOICE"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SINVOICE"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SINVOICE"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SINVOICE"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "SINVOICE"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SINVOICE"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SINVOICE"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SINVOICE"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/SINVOICE"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SINVOICE"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SINVOICE"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/SINVOICE/{num}": {
+      "get": {
+        "tags": [
+          "SINVOICE"
+        ],
+        "parameters": [
+          {
+            "name": "num",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "SINVOICE"
+        ],
+        "parameters": [
+          {
+            "name": "num",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SINVOICE"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SINVOICE"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SINVOICE"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "SINVOICE"
+        ],
+        "parameters": [
+          {
+            "name": "num",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SINVOICE": {
+        "type": "object",
+        "properties": {
+          "updticK_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sivtyP_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "invtyP_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "orimoD_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bpR_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bprsaC_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "cpY_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "fcY_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "gtE_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "joU_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "accdaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "accnuM_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bprdaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "bprvcR_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "cuR_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "curtyP_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "leD_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "leD_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "leD_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "leD_3": {
+            "type": "string",
+            "nullable": true
+          },
+          "leD_4": {
+            "type": "string",
+            "nullable": true
+          },
+          "leD_5": {
+            "type": "string",
+            "nullable": true
+          },
+          "leD_6": {
+            "type": "string",
+            "nullable": true
+          },
+          "leD_7": {
+            "type": "string",
+            "nullable": true
+          },
+          "leD_8": {
+            "type": "string",
+            "nullable": true
+          },
+          "leD_9": {
+            "type": "string",
+            "nullable": true
+          },
+          "curleD_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "curleD_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "curleD_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "curleD_3": {
+            "type": "string",
+            "nullable": true
+          },
+          "curleD_4": {
+            "type": "string",
+            "nullable": true
+          },
+          "curleD_5": {
+            "type": "string",
+            "nullable": true
+          },
+          "curleD_6": {
+            "type": "string",
+            "nullable": true
+          },
+          "curleD_7": {
+            "type": "string",
+            "nullable": true
+          },
+          "curleD_8": {
+            "type": "string",
+            "nullable": true
+          },
+          "curleD_9": {
+            "type": "string",
+            "nullable": true
+          },
+          "ratmlT_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratmlT_1": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratmlT_2": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratmlT_3": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratmlT_4": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratmlT_5": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratmlT_6": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratmlT_7": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratmlT_8": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratmlT_9": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratdiV_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratdiV_1": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratdiV_2": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratdiV_3": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratdiV_4": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratdiV_5": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratdiV_6": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratdiV_7": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratdiV_8": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratdiV_9": {
+            "type": "number",
+            "format": "double"
+          },
+          "ratdaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "bprpaY_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpapaY_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpynaM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpynaM_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpyaddliG_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpyaddliG_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpyaddliG_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpyposcoD_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpyctY_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpysaT_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpycrY_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpycrynaM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bprfcT_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "fctvcR_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "fctvcrflG_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "qtcaccnuM_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "strduddaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ptE_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "deP_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "depraT_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "vaC_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "sstentcoD_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "dirinvflG_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "eecnumdeB_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stA_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "deS_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "deS_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "deS_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "deS_3": {
+            "type": "string",
+            "nullable": true
+          },
+          "deS_4": {
+            "type": "string",
+            "nullable": true
+          },
+          "invnuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "snS_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "amtatI_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "amtnoT_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "amtnotL_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "amtatiL_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "vatdaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nbrtaX_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "taX_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "taX_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "taX_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "taX_3": {
+            "type": "string",
+            "nullable": true
+          },
+          "taX_4": {
+            "type": "string",
+            "nullable": true
+          },
+          "taX_5": {
+            "type": "string",
+            "nullable": true
+          },
+          "taX_6": {
+            "type": "string",
+            "nullable": true
+          },
+          "taX_7": {
+            "type": "string",
+            "nullable": true
+          },
+          "taX_8": {
+            "type": "string",
+            "nullable": true
+          },
+          "taX_9": {
+            "type": "string",
+            "nullable": true
+          },
+          "bastaX_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaX_1": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaX_2": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaX_3": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaX_4": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaX_5": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaX_6": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaX_7": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaX_8": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaX_9": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaX_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaX_1": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaX_2": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaX_3": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaX_4": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaX_5": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaX_6": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaX_7": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaX_8": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaX_9": {
+            "type": "number",
+            "format": "double"
+          },
+          "theamttaX_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "exeamttaX_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "exeamttaX_1": {
+            "type": "number",
+            "format": "double"
+          },
+          "exeamttaX_2": {
+            "type": "number",
+            "format": "double"
+          },
+          "exeamttaX_3": {
+            "type": "number",
+            "format": "double"
+          },
+          "exeamttaX_4": {
+            "type": "number",
+            "format": "double"
+          },
+          "exeamttaX_5": {
+            "type": "number",
+            "format": "double"
+          },
+          "exeamttaX_6": {
+            "type": "number",
+            "format": "double"
+          },
+          "exeamttaX_7": {
+            "type": "number",
+            "format": "double"
+          },
+          "exeamttaX_8": {
+            "type": "number",
+            "format": "double"
+          },
+          "exeamttaX_9": {
+            "type": "number",
+            "format": "double"
+          },
+          "diE_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_3": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_4": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_5": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_6": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_7": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_8": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_9": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_10": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_11": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_12": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_13": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_14": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_15": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_16": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_17": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_18": {
+            "type": "string",
+            "nullable": true
+          },
+          "diE_19": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_3": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_4": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_5": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_6": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_7": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_8": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_9": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_10": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_11": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_12": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_13": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_14": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_15": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_16": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_17": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_18": {
+            "type": "string",
+            "nullable": true
+          },
+          "ccE_19": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpainV_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bprnaM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bprnaM_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpaaddliG_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpaaddliG_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "bpaaddliG_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "poscoD_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "ctY_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "saT_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "crY_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "crynaM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "bilvcR_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "trsfaM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "fiY_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "peR_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "strdatsvC_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "enddatsvC_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lasdatsvC_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "amttaxusA_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "caI_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "datvlycaI_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "wrhE_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "expnuM_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sinuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "starpT_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isextdoC_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "credaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "creusR_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "upddaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updusR_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "basdeP_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "credattiM_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "upddattiM_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "auuiD_0": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "belvcS_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "adrvaL_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "salprityP_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dcleecnuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "porexpdcL_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "umrnuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcrnuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcrdaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nbrcpY_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cshvaT_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "spadernuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "flD40REN_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "flD41REN_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "oridocnuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "perdeB_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "perfiN_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "bvrrefnuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "paybaN_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "revcanstA_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pjtH_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "metcoR_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "crN_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "invtypspA_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "busprotyP_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "issbyreC_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "issbyrecG_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "issautgeN_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rowid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SINVOICED"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SINVOICED": {
+        "type": "object",
+        "properties": {
+          "updticK_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rowid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "sidliN_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cpY_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "sohnuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "sopliN_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soqseQ_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sdhnuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "sddliN_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "connuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "srenuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "sghnuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "sihorinuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "sidoriliN_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "srhnuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "srdliN_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pidliN_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bpcinV_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "itmreF_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "eccvalmaJ_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "eccvalmiN_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "itmdeS1_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "itmdeS_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "vacitM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "vacitM_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "vacitM_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "sstcoD_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "reP1_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "reP2_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "repraT1_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "repraT2_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "repbaS1_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "repbaS2_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "repamT1_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "repamT2_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "repcoE_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "groprI_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "prireN_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "netprI_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "netprinoT_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "netpriatI_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "pfM_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "cprprI_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "discrgvaL1_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "discrgvaL2_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "discrgvaL3_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "discrgvaL4_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "discrgvaL5_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "discrgvaL6_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "discrgvaL7_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "discrgvaL8_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "discrgvaL9_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "discrgreN1_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discrgreN2_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discrgreN3_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discrgreN4_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discrgreN5_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discrgreN6_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discrgreN7_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discrgreN8_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discrgreN9_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vaT_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "vaT_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "vaT_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "amtliN_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "amtnotliN_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "amtdepliN_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "clcamT1_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "clcamT2_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaxliN_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaxliN_1": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaxliN_2": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaxliN_3": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaxliN_4": {
+            "type": "number",
+            "format": "double"
+          },
+          "bastaxliN_5": {
+            "type": "number",
+            "format": "double"
+          },
+          "rattaxliN_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaxliN_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaxliN_1": {
+            "type": "number",
+            "format": "double"
+          },
+          "amttaxliN_2": {
+            "type": "number",
+            "format": "double"
+          },
+          "amtatiliN_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "dsplinflG_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ddtanuM_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ddtanuM_1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ddtanuM_2": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ddtanuM_3": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ddtanuM_4": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ddtanuM_5": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ddtanuM_6": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ddtanuM_7": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ddtanuM_8": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ddtanoT_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtanoT_1": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtanoT_2": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtanoT_3": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtanoT_4": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtanoT_5": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtanoT_6": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtanoT_7": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtanoT_8": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtadeP_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtadeP_1": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtadeP_2": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtadeP_3": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtadeP_4": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtadeP_5": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtadeP_6": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtadeP_7": {
+            "type": "number",
+            "format": "double"
+          },
+          "ddtadeP_8": {
+            "type": "number",
+            "format": "double"
+          },
+          "qtY_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "qtystU_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "saU_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "stU_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "saustucoE_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "stofcY_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "stomgtcoD_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "loT_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "stA_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "loC_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "priorD_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "alltyP_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "salfcY_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "invdaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "tsicoD_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "tsicoD_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "tsicoD_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "tsicoD_3": {
+            "type": "string",
+            "nullable": true
+          },
+          "tsicoD_4": {
+            "type": "string",
+            "nullable": true
+          },
+          "lintyP_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "focflG_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "oriliN_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sidteX_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "lineecflG_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "eecflophY_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "geocoD_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "insctyflG_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtS_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtC_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxgeoflG_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxflG_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "taxregflG_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "invprnboM_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "strdaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "enddaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "pernbR_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pertyP_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pitflG_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "dsplinweI_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "dsplinvoL_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "dspweU_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "dspvoU_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "wrH_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "pjT_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "expnuM_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "impnumliG_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "creusR_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "credaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updusR_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "upddaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "credattiM_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "upddattiM_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "auuiD_0": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "sidorI_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "invprC_0": {
+            "type": "number",
+            "format": "double"
+          },
+          "vcrinvcndliN_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vcrinvcndtyP_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sidpsonuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "sidseqnuM_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "invcndupD_0": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nexinvdaT_0": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "svicnuM_0": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoice": {
+            "$ref": "#/components/schemas/SINVOICE"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

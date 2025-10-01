@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|c:\\users\\dell\\documents\\backup school 2025\\stage\\invoiceapi\\invoiceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|solutionrelative:invoiceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|c:\\users\\dell\\documents\\backup school 2025\\stage\\invoiceapi\\invoiceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|solutionrelative:invoiceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|c:\\users\\dell\\documents\\backup school 2025\\stage\\invoiceapi\\invoiceapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|solutionrelative:invoiceapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|c:\\users\\dell\\documents\\backup school 2025\\stage\\invoiceapi\\invoiceapi\\models\\sinvoiced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|solutionrelative:invoiceapi\\models\\sinvoiced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|c:\\users\\dell\\documents\\backup school 2025\\stage\\invoiceapi\\invoiceapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|solutionrelative:invoiceapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|c:\\users\\dell\\documents\\backup school 2025\\stage\\invoiceapi\\invoiceapi\\models\\sinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|solutionrelative:invoiceapi\\models\\sinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|c:\\users\\dell\\documents\\backup school 2025\\stage\\invoiceapi\\invoiceapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|solutionrelative:invoiceapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|c:\\users\\dell\\documents\\backup school 2025\\stage\\invoiceapi\\invoiceapi\\invoiceapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|solutionrelative:invoiceapi\\invoiceapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\InvoiceAPI.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InvoiceAPI\\InvoiceAPI.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|c:\\users\\dell\\documents\\backup school 2025\\stage\\invoiceapi\\invoiceapi\\models\\invoicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|solutionrelative:invoiceapi\\models\\invoicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|c:\\users\\dell\\documents\\backup school 2025\\stage\\invoiceapi\\invoiceapi\\models\\sinvoicev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7AF678-B898-4584-93DB-C73FCF5A028A}|InvoiceAPI\\InvoiceAPI.csproj|solutionrelative:invoiceapi\\models\\sinvoicev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "InvoiceAPI\\Controllers\\InvoiceController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "InvoiceAPI\\Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T10:58:04.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "InvoiceAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\appsettings.json",
+              "RelativeToolTip": "InvoiceAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T13:57:44.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SINVOICED.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\models\\SINVOICED.cs",
+              "RelativeDocumentMoniker": "InvoiceAPI\\models\\SINVOICED.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\models\\SINVOICED.cs",
+              "RelativeToolTip": "InvoiceAPI\\models\\SINVOICED.cs",
+              "ViewState": "AgIAAC0BAAAAAAAAAAAmwDMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:22:54.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "InvoiceAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "InvoiceAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-30T18:18:58.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SINVOICEV.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\models\\SINVOICEV.cs",
+              "RelativeDocumentMoniker": "InvoiceAPI\\models\\SINVOICEV.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\models\\SINVOICEV.cs",
+              "RelativeToolTip": "InvoiceAPI\\models\\SINVOICEV.cs",
+              "ViewState": "AgIAADACAAAAAAAAAAAswEwCAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:31:02.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\Program.cs",
+              "RelativeDocumentMoniker": "InvoiceAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\Program.cs",
+              "RelativeToolTip": "InvoiceAPI\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAjwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T09:46:42.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SINVOICE.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\models\\SINVOICE.cs",
+              "RelativeDocumentMoniker": "InvoiceAPI\\models\\SINVOICE.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\models\\SINVOICE.cs",
+              "RelativeToolTip": "InvoiceAPI\\models\\SINVOICE.cs",
+              "ViewState": "AgIAALoBAAAAAAAAAADwv8YBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:06:47.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InvoiceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\models\\InvoiceDbContext.cs",
+              "RelativeDocumentMoniker": "InvoiceAPI\\models\\InvoiceDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\models\\InvoiceDbContext.cs",
+              "RelativeToolTip": "InvoiceAPI\\models\\InvoiceDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T15:04:51.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "InvoiceAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\appsettings.Development.json",
+              "RelativeToolTip": "InvoiceAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-01T13:46:32.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InvoiceAPI.http",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\InvoiceAPI.http",
+              "RelativeDocumentMoniker": "InvoiceAPI\\InvoiceAPI.http",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\InvoiceAPI.http",
+              "RelativeToolTip": "InvoiceAPI\\InvoiceAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-07T14:20:02.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvoiceAPI.csproj.user",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\InvoiceAPI.csproj.user",
+              "RelativeDocumentMoniker": "InvoiceAPI\\InvoiceAPI.csproj.user",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Backup School 2025\\STAGE\\InvoiceAPI\\InvoiceAPI\\InvoiceAPI.csproj.user",
+              "RelativeToolTip": "InvoiceAPI\\InvoiceAPI.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-08-07T14:20:01.875Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
